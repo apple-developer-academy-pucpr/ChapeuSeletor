@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53AA8B9622EF3812004C14B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AA8B9522EF3812004C14B7 /* AppDelegate.swift */; };
+		53AA8B9822EF3812004C14B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AA8B9722EF3812004C14B7 /* ViewController.swift */; };
+		53AA8B9B22EF3812004C14B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8B9922EF3812004C14B7 /* Main.storyboard */; };
+		53AA8B9D22EF3813004C14B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8B9C22EF3813004C14B7 /* Assets.xcassets */; };
+		53AA8BA022EF3813004C14B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8B9E22EF3813004C14B7 /* LaunchScreen.storyboard */; };
+		53AA8BAC22EF3904004C14B7 /* AudioLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AA8BA722EF3903004C14B7 /* AudioLoader.swift */; };
+		53AA8BAD22EF3904004C14B7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AA8BA822EF3903004C14B7 /* Model.swift */; };
+		53AA8BAE22EF3904004C14B7 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AA8BA922EF3903004C14B7 /* Student.swift */; };
+		53AA8BB022EF3904004C14B7 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AA8BAB22EF3904004C14B7 /* StudentTableViewCell.swift */; };
+		53AA8C1D22EF404B004C14B7 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AA8C1C22EF404B004C14B7 /* StudentsViewController.swift */; };
+		53AA8C3922F05F81004C14B7 /* Matheus da Silva Cavasin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2022F05F80004C14B7 /* Matheus da Silva Cavasin.wav */; };
+		53AA8C3A22F05F81004C14B7 /* Carlos Roberto Modinez Junior.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2122F05F80004C14B7 /* Carlos Roberto Modinez Junior.wav */; };
+		53AA8C3B22F05F81004C14B7 /* Cristiano Correia Rebouças.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2222F05F80004C14B7 /* Cristiano Correia Rebouças.wav */; };
+		53AA8C3C22F05F81004C14B7 /* João Conrado Santana de Lima Dembiski.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2322F05F80004C14B7 /* João Conrado Santana de Lima Dembiski.wav */; };
+		53AA8C3D22F05F81004C14B7 /* Eduarda Linhares Mello.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2422F05F80004C14B7 /* Eduarda Linhares Mello.wav */; };
+		53AA8C3E22F05F81004C14B7 /* Enzo Maruffa Moreira.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2522F05F80004C14B7 /* Enzo Maruffa Moreira.wav */; };
+		53AA8C3F22F05F81004C14B7 /* Pedro Silva de Vargas.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2622F05F80004C14B7 /* Pedro Silva de Vargas.wav */; };
+		53AA8C4022F05F81004C14B7 /* Kevin Katzer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2722F05F80004C14B7 /* Kevin Katzer.wav */; };
+		53AA8C4122F05F81004C14B7 /* Leonardo Giovannetti Palinkas.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2822F05F80004C14B7 /* Leonardo Giovannetti Palinkas.wav */; };
+		53AA8C4222F05F81004C14B7 /* Vinicius Augusto Dilay de Paula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2922F05F80004C14B7 /* Vinicius Augusto Dilay de Paula.wav */; };
+		53AA8C4322F05F81004C14B7 /* Vinícius Isoo Binder.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2A22F05F80004C14B7 /* Vinícius Isoo Binder.wav */; };
+		53AA8C4422F05F81004C14B7 /* Lucas Brehm Ronnau.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2B22F05F80004C14B7 /* Lucas Brehm Ronnau.wav */; };
+		53AA8C4522F05F81004C14B7 /* Saulo de Freitas Martins da Silva.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2C22F05F80004C14B7 /* Saulo de Freitas Martins da Silva.wav */; };
+		53AA8C4622F05F81004C14B7 /* Letícia Linhares Camargo Pulner.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2D22F05F80004C14B7 /* Letícia Linhares Camargo Pulner.wav */; };
+		53AA8C4722F05F81004C14B7 /* Felipe de Lima Mesquita.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2E22F05F81004C14B7 /* Felipe de Lima Mesquita.wav */; };
+		53AA8C4822F05F81004C14B7 /* Mateus Nunes da Silva.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C2F22F05F81004C14B7 /* Mateus Nunes da Silva.wav */; };
+		53AA8C4922F05F81004C14B7 /* Maria Fernanda Azolin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C3022F05F81004C14B7 /* Maria Fernanda Azolin.wav */; };
+		53AA8C4A22F05F81004C14B7 /* Mariana Beilune Abad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C3122F05F81004C14B7 /* Mariana Beilune Abad.wav */; };
+		53AA8C4B22F05F81004C14B7 /* Isabela Castro Nascimento.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C3222F05F81004C14B7 /* Isabela Castro Nascimento.wav */; };
+		53AA8C4C22F05F81004C14B7 /* Flavio Akira Tsukamoto.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C3322F05F81004C14B7 /* Flavio Akira Tsukamoto.wav */; };
+		53AA8C4D22F05F81004C14B7 /* Andressa Eloisa Valengo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C3422F05F81004C14B7 /* Andressa Eloisa Valengo.wav */; };
+		53AA8C4E22F05F81004C14B7 /* Ana Paula Aguiar Clemente.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C3522F05F81004C14B7 /* Ana Paula Aguiar Clemente.wav */; };
+		53AA8C4F22F05F81004C14B7 /* Caroline Tokarski.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C3622F05F81004C14B7 /* Caroline Tokarski.wav */; };
+		53AA8C5022F05F81004C14B7 /* Pyettra Ferreira.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C3722F05F81004C14B7 /* Pyettra Ferreira.wav */; };
+		53AA8C5122F05F81004C14B7 /* José Guilherme Bestel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C3822F05F81004C14B7 /* José Guilherme Bestel.wav */; };
+		53AA8C6B22F06033004C14B7 /* Gabrielle Cristina Grein Nogueira.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5222F06031004C14B7 /* Gabrielle Cristina Grein Nogueira.wav */; };
+		53AA8C6C22F06033004C14B7 /* Jéssica Lopes Matsuura.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5322F06031004C14B7 /* Jéssica Lopes Matsuura.wav */; };
+		53AA8C6D22F06033004C14B7 /* Filipe de Oliveira Souza.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5422F06031004C14B7 /* Filipe de Oliveira Souza.wav */; };
+		53AA8C6E22F06033004C14B7 /* Mariana Lech.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5522F06031004C14B7 /* Mariana Lech.wav */; };
+		53AA8C6F22F06033004C14B7 /* Jéssica Yumi Tanimoto.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5622F06031004C14B7 /* Jéssica Yumi Tanimoto.wav */; };
+		53AA8C7022F06033004C14B7 /* Bruno Pastre.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5722F06031004C14B7 /* Bruno Pastre.wav */; };
+		53AA8C7122F06033004C14B7 /* Lucas Giusti de Azevedo Souza.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5822F06031004C14B7 /* Lucas Giusti de Azevedo Souza.wav */; };
+		53AA8C7222F06033004C14B7 /* Rodolfo Diniz Biazi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5922F06031004C14B7 /* Rodolfo Diniz Biazi.wav */; };
+		53AA8C7322F06033004C14B7 /* Gabriel Rodrigues Gazal Rocha.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5A22F06031004C14B7 /* Gabriel Rodrigues Gazal Rocha.wav */; };
+		53AA8C7522F06033004C14B7 /* João Felipe Raffs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5C22F06031004C14B7 /* João Felipe Raffs.wav */; };
+		53AA8C7622F06033004C14B7 /* Otávio Baziewicz Filho.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5D22F06031004C14B7 /* Otávio Baziewicz Filho.wav */; };
+		53AA8C7722F06033004C14B7 /* Rodrigo Forbeck Odppes.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5E22F06031004C14B7 /* Rodrigo Forbeck Odppes.wav */; };
+		53AA8C7822F06033004C14B7 /* Kelvin Javorski Soares.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C5F22F06032004C14B7 /* Kelvin Javorski Soares.wav */; };
+		53AA8C7922F06033004C14B7 /* Mateus de Jesus João Paulo Filho.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6022F06032004C14B7 /* Mateus de Jesus João Paulo Filho.wav */; };
+		53AA8C7A22F06033004C14B7 /* Rubens Beraldo Paulico.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6122F06032004C14B7 /* Rubens Beraldo Paulico.wav */; };
+		53AA8C7B22F06033004C14B7 /* Laryssa Tertuliano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6222F06032004C14B7 /* Laryssa Tertuliano.wav */; };
+		53AA8C7C22F06033004C14B7 /* Kevin Ribeiro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6322F06032004C14B7 /* Kevin Ribeiro.wav */; };
+		53AA8C7D22F06033004C14B7 /* Walace Pereira de Paula e Silva.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6422F06032004C14B7 /* Walace Pereira de Paula e Silva.wav */; };
+		53AA8C7E22F06033004C14B7 /* Ailton Vieira Pinto Filho.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6522F06032004C14B7 /* Ailton Vieira Pinto Filho.wav */; };
+		53AA8C7F22F06033004C14B7 /* Kaz Born (Fernanda Rolim de Moura Born).wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6622F06032004C14B7 /* Kaz Born (Fernanda Rolim de Moura Born).wav */; };
+		53AA8C8022F06033004C14B7 /* João Guilherme Pinheiro Barion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6722F06032004C14B7 /* João Guilherme Pinheiro Barion.wav */; };
+		53AA8C8122F06033004C14B7 /* Maykon Christian Meneghel.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6822F06032004C14B7 /* Maykon Christian Meneghel.wav */; };
+		53AA8C8222F06033004C14B7 /* André Luiz Tosin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6922F06032004C14B7 /* André Luiz Tosin.wav */; };
+		53AA8C8322F06033004C14B7 /* Gabriel Henrique Porto Caldeira Taques.wav in Resources */ = {isa = PBXBuildFile; fileRef = 53AA8C6A22F06032004C14B7 /* Gabriel Henrique Porto Caldeira Taques.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53AA8B9222EF3812004C14B7 /* ChapeuSeletor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChapeuSeletor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AA8B9522EF3812004C14B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53AA8B9722EF3812004C14B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53AA8B9A22EF3812004C14B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53AA8B9C22EF3813004C14B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53AA8B9F22EF3813004C14B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53AA8BA122EF3813004C14B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AA8BA722EF3903004C14B7 /* AudioLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioLoader.swift; sourceTree = "<group>"; };
+		53AA8BA822EF3903004C14B7 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		53AA8BA922EF3903004C14B7 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		53AA8BAB22EF3904004C14B7 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		53AA8C1C22EF404B004C14B7 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		53AA8C2022F05F80004C14B7 /* Matheus da Silva Cavasin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Matheus da Silva Cavasin.wav"; sourceTree = "<group>"; };
+		53AA8C2122F05F80004C14B7 /* Carlos Roberto Modinez Junior.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Carlos Roberto Modinez Junior.wav"; sourceTree = "<group>"; };
+		53AA8C2222F05F80004C14B7 /* Cristiano Correia Rebouças.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cristiano Correia Rebouças.wav"; sourceTree = "<group>"; };
+		53AA8C2322F05F80004C14B7 /* João Conrado Santana de Lima Dembiski.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "João Conrado Santana de Lima Dembiski.wav"; sourceTree = "<group>"; };
+		53AA8C2422F05F80004C14B7 /* Eduarda Linhares Mello.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Eduarda Linhares Mello.wav"; sourceTree = "<group>"; };
+		53AA8C2522F05F80004C14B7 /* Enzo Maruffa Moreira.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Enzo Maruffa Moreira.wav"; sourceTree = "<group>"; };
+		53AA8C2622F05F80004C14B7 /* Pedro Silva de Vargas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Pedro Silva de Vargas.wav"; sourceTree = "<group>"; };
+		53AA8C2722F05F80004C14B7 /* Kevin Katzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kevin Katzer.wav"; sourceTree = "<group>"; };
+		53AA8C2822F05F80004C14B7 /* Leonardo Giovannetti Palinkas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Leonardo Giovannetti Palinkas.wav"; sourceTree = "<group>"; };
+		53AA8C2922F05F80004C14B7 /* Vinicius Augusto Dilay de Paula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Vinicius Augusto Dilay de Paula.wav"; sourceTree = "<group>"; };
+		53AA8C2A22F05F80004C14B7 /* Vinícius Isoo Binder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Vinícius Isoo Binder.wav"; sourceTree = "<group>"; };
+		53AA8C2B22F05F80004C14B7 /* Lucas Brehm Ronnau.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Lucas Brehm Ronnau.wav"; sourceTree = "<group>"; };
+		53AA8C2C22F05F80004C14B7 /* Saulo de Freitas Martins da Silva.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Saulo de Freitas Martins da Silva.wav"; sourceTree = "<group>"; };
+		53AA8C2D22F05F80004C14B7 /* Letícia Linhares Camargo Pulner.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Letícia Linhares Camargo Pulner.wav"; sourceTree = "<group>"; };
+		53AA8C2E22F05F81004C14B7 /* Felipe de Lima Mesquita.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Felipe de Lima Mesquita.wav"; sourceTree = "<group>"; };
+		53AA8C2F22F05F81004C14B7 /* Mateus Nunes da Silva.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Mateus Nunes da Silva.wav"; sourceTree = "<group>"; };
+		53AA8C3022F05F81004C14B7 /* Maria Fernanda Azolin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Maria Fernanda Azolin.wav"; sourceTree = "<group>"; };
+		53AA8C3122F05F81004C14B7 /* Mariana Beilune Abad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Mariana Beilune Abad.wav"; sourceTree = "<group>"; };
+		53AA8C3222F05F81004C14B7 /* Isabela Castro Nascimento.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Isabela Castro Nascimento.wav"; sourceTree = "<group>"; };
+		53AA8C3322F05F81004C14B7 /* Flavio Akira Tsukamoto.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Flavio Akira Tsukamoto.wav"; sourceTree = "<group>"; };
+		53AA8C3422F05F81004C14B7 /* Andressa Eloisa Valengo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Andressa Eloisa Valengo.wav"; sourceTree = "<group>"; };
+		53AA8C3522F05F81004C14B7 /* Ana Paula Aguiar Clemente.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ana Paula Aguiar Clemente.wav"; sourceTree = "<group>"; };
+		53AA8C3622F05F81004C14B7 /* Caroline Tokarski.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Caroline Tokarski.wav"; sourceTree = "<group>"; };
+		53AA8C3722F05F81004C14B7 /* Pyettra Ferreira.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Pyettra Ferreira.wav"; sourceTree = "<group>"; };
+		53AA8C3822F05F81004C14B7 /* José Guilherme Bestel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "José Guilherme Bestel.wav"; sourceTree = "<group>"; };
+		53AA8C5222F06031004C14B7 /* Gabrielle Cristina Grein Nogueira.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Gabrielle Cristina Grein Nogueira.wav"; sourceTree = "<group>"; };
+		53AA8C5322F06031004C14B7 /* Jéssica Lopes Matsuura.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Jéssica Lopes Matsuura.wav"; sourceTree = "<group>"; };
+		53AA8C5422F06031004C14B7 /* Filipe de Oliveira Souza.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Filipe de Oliveira Souza.wav"; sourceTree = "<group>"; };
+		53AA8C5522F06031004C14B7 /* Mariana Lech.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Mariana Lech.wav"; sourceTree = "<group>"; };
+		53AA8C5622F06031004C14B7 /* Jéssica Yumi Tanimoto.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Jéssica Yumi Tanimoto.wav"; sourceTree = "<group>"; };
+		53AA8C5722F06031004C14B7 /* Bruno Pastre.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bruno Pastre.wav"; sourceTree = "<group>"; };
+		53AA8C5822F06031004C14B7 /* Lucas Giusti de Azevedo Souza.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Lucas Giusti de Azevedo Souza.wav"; sourceTree = "<group>"; };
+		53AA8C5922F06031004C14B7 /* Rodolfo Diniz Biazi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Rodolfo Diniz Biazi.wav"; sourceTree = "<group>"; };
+		53AA8C5A22F06031004C14B7 /* Gabriel Rodrigues Gazal Rocha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Gabriel Rodrigues Gazal Rocha.wav"; sourceTree = "<group>"; };
+		53AA8C5C22F06031004C14B7 /* João Felipe Raffs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "João Felipe Raffs.wav"; sourceTree = "<group>"; };
+		53AA8C5D22F06031004C14B7 /* Otávio Baziewicz Filho.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Otávio Baziewicz Filho.wav"; sourceTree = "<group>"; };
+		53AA8C5E22F06031004C14B7 /* Rodrigo Forbeck Odppes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Rodrigo Forbeck Odppes.wav"; sourceTree = "<group>"; };
+		53AA8C5F22F06032004C14B7 /* Kelvin Javorski Soares.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kelvin Javorski Soares.wav"; sourceTree = "<group>"; };
+		53AA8C6022F06032004C14B7 /* Mateus de Jesus João Paulo Filho.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Mateus de Jesus João Paulo Filho.wav"; sourceTree = "<group>"; };
+		53AA8C6122F06032004C14B7 /* Rubens Beraldo Paulico.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Rubens Beraldo Paulico.wav"; sourceTree = "<group>"; };
+		53AA8C6222F06032004C14B7 /* Laryssa Tertuliano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Laryssa Tertuliano.wav"; sourceTree = "<group>"; };
+		53AA8C6322F06032004C14B7 /* Kevin Ribeiro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kevin Ribeiro.wav"; sourceTree = "<group>"; };
+		53AA8C6422F06032004C14B7 /* Walace Pereira de Paula e Silva.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Walace Pereira de Paula e Silva.wav"; sourceTree = "<group>"; };
+		53AA8C6522F06032004C14B7 /* Ailton Vieira Pinto Filho.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ailton Vieira Pinto Filho.wav"; sourceTree = "<group>"; };
+		53AA8C6622F06032004C14B7 /* Kaz Born (Fernanda Rolim de Moura Born).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Kaz Born (Fernanda Rolim de Moura Born).wav"; sourceTree = "<group>"; };
+		53AA8C6722F06032004C14B7 /* João Guilherme Pinheiro Barion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "João Guilherme Pinheiro Barion.wav"; sourceTree = "<group>"; };
+		53AA8C6822F06032004C14B7 /* Maykon Christian Meneghel.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Maykon Christian Meneghel.wav"; sourceTree = "<group>"; };
+		53AA8C6922F06032004C14B7 /* André Luiz Tosin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "André Luiz Tosin.wav"; sourceTree = "<group>"; };
+		53AA8C6A22F06032004C14B7 /* Gabriel Henrique Porto Caldeira Taques.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Gabriel Henrique Porto Caldeira Taques.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AA8B8F22EF3812004C14B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53AA8B8922EF3812004C14B7 = {
+			isa = PBXGroup;
+			children = (
+				53AA8B9422EF3812004C14B7 /* ChapeuSeletor */,
+				53AA8B9322EF3812004C14B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53AA8B9322EF3812004C14B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53AA8B9222EF3812004C14B7 /* ChapeuSeletor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53AA8B9422EF3812004C14B7 /* ChapeuSeletor */ = {
+			isa = PBXGroup;
+			children = (
+				53AA8B9C22EF3813004C14B7 /* Assets.xcassets */,
+				53AA8BB922EF3D73004C14B7 /* Audios */,
+				53AA8B9522EF3812004C14B7 /* AppDelegate.swift */,
+				53AA8BA822EF3903004C14B7 /* Model.swift */,
+				53AA8BA722EF3903004C14B7 /* AudioLoader.swift */,
+				53AA8BA922EF3903004C14B7 /* Student.swift */,
+				53AA8B9722EF3812004C14B7 /* ViewController.swift */,
+				53AA8C1C22EF404B004C14B7 /* StudentsViewController.swift */,
+				53AA8BAB22EF3904004C14B7 /* StudentTableViewCell.swift */,
+				53AA8B9922EF3812004C14B7 /* Main.storyboard */,
+				53AA8B9E22EF3813004C14B7 /* LaunchScreen.storyboard */,
+				53AA8BA122EF3813004C14B7 /* Info.plist */,
+			);
+			path = ChapeuSeletor;
+			sourceTree = "<group>";
+		};
+		53AA8BB922EF3D73004C14B7 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				53AA8C6522F06032004C14B7 /* Ailton Vieira Pinto Filho.wav */,
+				53AA8C6922F06032004C14B7 /* André Luiz Tosin.wav */,
+				53AA8C5722F06031004C14B7 /* Bruno Pastre.wav */,
+				53AA8C5422F06031004C14B7 /* Filipe de Oliveira Souza.wav */,
+				53AA8C6A22F06032004C14B7 /* Gabriel Henrique Porto Caldeira Taques.wav */,
+				53AA8C5A22F06031004C14B7 /* Gabriel Rodrigues Gazal Rocha.wav */,
+				53AA8C5222F06031004C14B7 /* Gabrielle Cristina Grein Nogueira.wav */,
+				53AA8C5322F06031004C14B7 /* Jéssica Lopes Matsuura.wav */,
+				53AA8C5622F06031004C14B7 /* Jéssica Yumi Tanimoto.wav */,
+				53AA8C5C22F06031004C14B7 /* João Felipe Raffs.wav */,
+				53AA8C6722F06032004C14B7 /* João Guilherme Pinheiro Barion.wav */,
+				53AA8C6622F06032004C14B7 /* Kaz Born (Fernanda Rolim de Moura Born).wav */,
+				53AA8C5F22F06032004C14B7 /* Kelvin Javorski Soares.wav */,
+				53AA8C6322F06032004C14B7 /* Kevin Ribeiro.wav */,
+				53AA8C6222F06032004C14B7 /* Laryssa Tertuliano.wav */,
+				53AA8C5822F06031004C14B7 /* Lucas Giusti de Azevedo Souza.wav */,
+				53AA8C5522F06031004C14B7 /* Mariana Lech.wav */,
+				53AA8C6022F06032004C14B7 /* Mateus de Jesus João Paulo Filho.wav */,
+				53AA8C6822F06032004C14B7 /* Maykon Christian Meneghel.wav */,
+				53AA8C5D22F06031004C14B7 /* Otávio Baziewicz Filho.wav */,
+				53AA8C5922F06031004C14B7 /* Rodolfo Diniz Biazi.wav */,
+				53AA8C5E22F06031004C14B7 /* Rodrigo Forbeck Odppes.wav */,
+				53AA8C6122F06032004C14B7 /* Rubens Beraldo Paulico.wav */,
+				53AA8C6422F06032004C14B7 /* Walace Pereira de Paula e Silva.wav */,
+				53AA8C3522F05F81004C14B7 /* Ana Paula Aguiar Clemente.wav */,
+				53AA8C3422F05F81004C14B7 /* Andressa Eloisa Valengo.wav */,
+				53AA8C2122F05F80004C14B7 /* Carlos Roberto Modinez Junior.wav */,
+				53AA8C3622F05F81004C14B7 /* Caroline Tokarski.wav */,
+				53AA8C2222F05F80004C14B7 /* Cristiano Correia Rebouças.wav */,
+				53AA8C2422F05F80004C14B7 /* Eduarda Linhares Mello.wav */,
+				53AA8C2522F05F80004C14B7 /* Enzo Maruffa Moreira.wav */,
+				53AA8C2E22F05F81004C14B7 /* Felipe de Lima Mesquita.wav */,
+				53AA8C3322F05F81004C14B7 /* Flavio Akira Tsukamoto.wav */,
+				53AA8C3222F05F81004C14B7 /* Isabela Castro Nascimento.wav */,
+				53AA8C2322F05F80004C14B7 /* João Conrado Santana de Lima Dembiski.wav */,
+				53AA8C3822F05F81004C14B7 /* José Guilherme Bestel.wav */,
+				53AA8C2722F05F80004C14B7 /* Kevin Katzer.wav */,
+				53AA8C2822F05F80004C14B7 /* Leonardo Giovannetti Palinkas.wav */,
+				53AA8C2D22F05F80004C14B7 /* Letícia Linhares Camargo Pulner.wav */,
+				53AA8C2B22F05F80004C14B7 /* Lucas Brehm Ronnau.wav */,
+				53AA8C3022F05F81004C14B7 /* Maria Fernanda Azolin.wav */,
+				53AA8C3122F05F81004C14B7 /* Mariana Beilune Abad.wav */,
+				53AA8C2F22F05F81004C14B7 /* Mateus Nunes da Silva.wav */,
+				53AA8C2022F05F80004C14B7 /* Matheus da Silva Cavasin.wav */,
+				53AA8C2622F05F80004C14B7 /* Pedro Silva de Vargas.wav */,
+				53AA8C3722F05F81004C14B7 /* Pyettra Ferreira.wav */,
+				53AA8C2C22F05F80004C14B7 /* Saulo de Freitas Martins da Silva.wav */,
+				53AA8C2922F05F80004C14B7 /* Vinicius Augusto Dilay de Paula.wav */,
+				53AA8C2A22F05F80004C14B7 /* Vinícius Isoo Binder.wav */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53AA8B9122EF3812004C14B7 /* ChapeuSeletor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AA8BA422EF3813004C14B7 /* Build configuration list for PBXNativeTarget "ChapeuSeletor" */;
+			buildPhases = (
+				53AA8B8E22EF3812004C14B7 /* Sources */,
+				53AA8B8F22EF3812004C14B7 /* Frameworks */,
+				53AA8B9022EF3812004C14B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChapeuSeletor;
+			productName = ChapeuSeletor;
+			productReference = 53AA8B9222EF3812004C14B7 /* ChapeuSeletor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53AA8B8A22EF3812004C14B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rafael Forbeck";
+				TargetAttributes = {
+					53AA8B9122EF3812004C14B7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 53AA8B8D22EF3812004C14B7 /* Build configuration list for PBXProject "ChapeuSeletor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53AA8B8922EF3812004C14B7;
+			productRefGroup = 53AA8B9322EF3812004C14B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53AA8B9122EF3812004C14B7 /* ChapeuSeletor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53AA8B9022EF3812004C14B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AA8C4022F05F81004C14B7 /* Kevin Katzer.wav in Resources */,
+				53AA8C6E22F06033004C14B7 /* Mariana Lech.wav in Resources */,
+				53AA8C7C22F06033004C14B7 /* Kevin Ribeiro.wav in Resources */,
+				53AA8C4D22F05F81004C14B7 /* Andressa Eloisa Valengo.wav in Resources */,
+				53AA8C4F22F05F81004C14B7 /* Caroline Tokarski.wav in Resources */,
+				53AA8C5022F05F81004C14B7 /* Pyettra Ferreira.wav in Resources */,
+				53AA8C7222F06033004C14B7 /* Rodolfo Diniz Biazi.wav in Resources */,
+				53AA8C3C22F05F81004C14B7 /* João Conrado Santana de Lima Dembiski.wav in Resources */,
+				53AA8C3F22F05F81004C14B7 /* Pedro Silva de Vargas.wav in Resources */,
+				53AA8C4B22F05F81004C14B7 /* Isabela Castro Nascimento.wav in Resources */,
+				53AA8C3A22F05F81004C14B7 /* Carlos Roberto Modinez Junior.wav in Resources */,
+				53AA8C8322F06033004C14B7 /* Gabriel Henrique Porto Caldeira Taques.wav in Resources */,
+				53AA8C7E22F06033004C14B7 /* Ailton Vieira Pinto Filho.wav in Resources */,
+				53AA8C7322F06033004C14B7 /* Gabriel Rodrigues Gazal Rocha.wav in Resources */,
+				53AA8C6D22F06033004C14B7 /* Filipe de Oliveira Souza.wav in Resources */,
+				53AA8C3922F05F81004C14B7 /* Matheus da Silva Cavasin.wav in Resources */,
+				53AA8C5122F05F81004C14B7 /* José Guilherme Bestel.wav in Resources */,
+				53AA8C4622F05F81004C14B7 /* Letícia Linhares Camargo Pulner.wav in Resources */,
+				53AA8C4A22F05F81004C14B7 /* Mariana Beilune Abad.wav in Resources */,
+				53AA8C7122F06033004C14B7 /* Lucas Giusti de Azevedo Souza.wav in Resources */,
+				53AA8C3D22F05F81004C14B7 /* Eduarda Linhares Mello.wav in Resources */,
+				53AA8C7922F06033004C14B7 /* Mateus de Jesus João Paulo Filho.wav in Resources */,
+				53AA8C4922F05F81004C14B7 /* Maria Fernanda Azolin.wav in Resources */,
+				53AA8C7622F06033004C14B7 /* Otávio Baziewicz Filho.wav in Resources */,
+				53AA8C8122F06033004C14B7 /* Maykon Christian Meneghel.wav in Resources */,
+				53AA8C7822F06033004C14B7 /* Kelvin Javorski Soares.wav in Resources */,
+				53AA8C6B22F06033004C14B7 /* Gabrielle Cristina Grein Nogueira.wav in Resources */,
+				53AA8C4822F05F81004C14B7 /* Mateus Nunes da Silva.wav in Resources */,
+				53AA8BA022EF3813004C14B7 /* LaunchScreen.storyboard in Resources */,
+				53AA8C7722F06033004C14B7 /* Rodrigo Forbeck Odppes.wav in Resources */,
+				53AA8C6F22F06033004C14B7 /* Jéssica Yumi Tanimoto.wav in Resources */,
+				53AA8B9D22EF3813004C14B7 /* Assets.xcassets in Resources */,
+				53AA8C7B22F06033004C14B7 /* Laryssa Tertuliano.wav in Resources */,
+				53AA8C4C22F05F81004C14B7 /* Flavio Akira Tsukamoto.wav in Resources */,
+				53AA8C4722F05F81004C14B7 /* Felipe de Lima Mesquita.wav in Resources */,
+				53AA8C7022F06033004C14B7 /* Bruno Pastre.wav in Resources */,
+				53AA8C7522F06033004C14B7 /* João Felipe Raffs.wav in Resources */,
+				53AA8C3E22F05F81004C14B7 /* Enzo Maruffa Moreira.wav in Resources */,
+				53AA8C4E22F05F81004C14B7 /* Ana Paula Aguiar Clemente.wav in Resources */,
+				53AA8B9B22EF3812004C14B7 /* Main.storyboard in Resources */,
+				53AA8C7F22F06033004C14B7 /* Kaz Born (Fernanda Rolim de Moura Born).wav in Resources */,
+				53AA8C8222F06033004C14B7 /* André Luiz Tosin.wav in Resources */,
+				53AA8C4422F05F81004C14B7 /* Lucas Brehm Ronnau.wav in Resources */,
+				53AA8C4322F05F81004C14B7 /* Vinícius Isoo Binder.wav in Resources */,
+				53AA8C4122F05F81004C14B7 /* Leonardo Giovannetti Palinkas.wav in Resources */,
+				53AA8C4222F05F81004C14B7 /* Vinicius Augusto Dilay de Paula.wav in Resources */,
+				53AA8C8022F06033004C14B7 /* João Guilherme Pinheiro Barion.wav in Resources */,
+				53AA8C6C22F06033004C14B7 /* Jéssica Lopes Matsuura.wav in Resources */,
+				53AA8C7D22F06033004C14B7 /* Walace Pereira de Paula e Silva.wav in Resources */,
+				53AA8C4522F05F81004C14B7 /* Saulo de Freitas Martins da Silva.wav in Resources */,
+				53AA8C3B22F05F81004C14B7 /* Cristiano Correia Rebouças.wav in Resources */,
+				53AA8C7A22F06033004C14B7 /* Rubens Beraldo Paulico.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53AA8B8E22EF3812004C14B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AA8C1D22EF404B004C14B7 /* StudentsViewController.swift in Sources */,
+				53AA8B9822EF3812004C14B7 /* ViewController.swift in Sources */,
+				53AA8B9622EF3812004C14B7 /* AppDelegate.swift in Sources */,
+				53AA8BAC22EF3904004C14B7 /* AudioLoader.swift in Sources */,
+				53AA8BB022EF3904004C14B7 /* StudentTableViewCell.swift in Sources */,
+				53AA8BAE22EF3904004C14B7 /* Student.swift in Sources */,
+				53AA8BAD22EF3904004C14B7 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53AA8B9922EF3812004C14B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53AA8B9A22EF3812004C14B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53AA8B9E22EF3813004C14B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53AA8B9F22EF3813004C14B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53AA8BA222EF3813004C14B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53AA8BA322EF3813004C14B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53AA8BA522EF3813004C14B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X779CWS3P4;
+				INFOPLIST_FILE = ChapeuSeletor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelforbeck.ChapeuSeletor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53AA8BA622EF3813004C14B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X779CWS3P4;
+				INFOPLIST_FILE = ChapeuSeletor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rafaelforbeck.ChapeuSeletor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53AA8B8D22EF3812004C14B7 /* Build configuration list for PBXProject "ChapeuSeletor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AA8BA222EF3813004C14B7 /* Debug */,
+				53AA8BA322EF3813004C14B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AA8BA422EF3813004C14B7 /* Build configuration list for PBXNativeTarget "ChapeuSeletor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AA8BA522EF3813004C14B7 /* Debug */,
+				53AA8BA622EF3813004C14B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53AA8B8A22EF3812004C14B7 /* Project object */;
+}
